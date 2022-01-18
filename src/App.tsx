@@ -1,7 +1,19 @@
 import React from 'react';
+import { Navbar, Welcome, Footer, Services, Transactions } from './components';
+import { Box } from '@mui/material';
 
 function App() {
-  return <div className='App'>test</div>;
+  return (
+    <Box minWidth='100vw'>
+      <Box className='gradient-bg-welcome'>
+        <Navbar />
+        <Welcome />
+      </Box>
+      <Services />
+      <Transactions />
+      <Footer />
+    </Box>
+  );
 }
 
 export default App;
