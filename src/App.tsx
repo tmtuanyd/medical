@@ -4,7 +4,7 @@ import { Box } from '@mui/material';
 
 function App() {
   return (
-    <Box minWidth='100vw'>
+    <Box minWidth='100%'>
       <Box className='gradient-bg-welcome'>
         <Navbar />
         <Welcome />
